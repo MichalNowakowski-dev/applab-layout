@@ -309,3 +309,84 @@
   background-color: transparent;
   font-weight: 500;
 }
+
+/* Download section */
+.product-download {
+  min-height: 50vh;
+  background-color: #5db2ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.product-download__heading {
+  color: white;
+  font-size: var(--font-xl);
+  line-height: 3.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.product-download__list {
+  display: flex;
+}
+
+/* Footer  */
+
+.footer__container {
+  background: #1f1f1f;
+  padding: 5rem 2rem;
+}
+
+.socials__link img {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  background-color: #565656;
+  border-radius: 50%;
+}
+
+.socials__paragraph {
+  color: #c7c7c7;
+  font-size: var(--font-m);
+  margin: 2rem 0;
+}
+
+.socials__list {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.footer .heading {
+  color: var(--color-white);
+  font-size: var(--font-l);
+  margin-bottom: 2rem;
+}
+.footer .item {
+  margin-bottom: 2rem;
+}
+.footer .link {
+  color: #c7c7c7;
+}
+
+.footer section {
+  margin-bottom: 3rem;
+}
+
+.footer-copyright {
+  background-color: #000;
+  min-height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.copyright__heading {
+  text-align: center;
+  color: #c7c7c7;
+  font-size: var(--font-s);
+}
